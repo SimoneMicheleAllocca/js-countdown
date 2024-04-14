@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.timer {
+    border: 1px solid black;
+    height: 50%;
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    background-color: rgb(255, 234, 75);
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+ 
+}
+
+#second {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 150px;
+}
+
+#second {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+#avvio {
+    margin: 20px auto;
+    width: 20%;
+    background-color: rgb(255, 231, 46);
+    padding: 5px 0;
+    border-radius: 14px;
+    
+}
+#message {
+  display: none;
+  color: rgb(0, 0, 0);
+  
+}
+
+.happy {
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
